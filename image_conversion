@@ -1,0 +1,13 @@
+#!/bin/bash
+  #Script to convert high quality tif images into jpgs
+   srcdir="/home/sullivm1/Pictures/Salient53011990"
+   dstdir="/home/sullivm1/Pictures/Salient_Processed"
+
+  for file in `find "$srcdir" -type f -name "*.tif"`;
+  do
+       echo -path $dstdir mogrify -quality 90 -resize 50% -format jpg $file 
+      mogrify -path $dstdir -quality 90 -resize 50% -format jpg $file
+       echo cp `find "$srcdir" -type f -name "*.jpg"` $dstdir/
+       cp `find "$srcdir" -type f -name "*.jpg"` $dstdir/
+#       rm $srcdir/*.jpg
+  done
