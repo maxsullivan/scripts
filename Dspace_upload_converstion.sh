@@ -1,5 +1,6 @@
 #!/bin/bash
-#a script to convert a comma-seperated dump of courses to xml
+#Script to convert a comma-seperated dump of courses to xml
+#Script prepares objects and metadata for upload to dspace
 
 PDFPATH=/home/sullivm1/Testing/Exams/PDFS
 
