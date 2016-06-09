@@ -9,15 +9,20 @@
 <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
 <xsl:strip-space elements="*"/>
 
+<!-- Script to insert encodingDesc and profileDesc into teiHeader -->
 
 
+<!-- Match correct publication date in the sourceDesc and create a variable -->
    <xsl:variable name="date" select="//tei:sourceDesc//tei:date[@when][1][contains(text(),'19')]"/>
 
    <xsl:template match="tei:encodingDesc|tei:profileDesc"/>
 
+<!-- Match closing teiHeader -->
    <xsl:template match="tei:teiHeader">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
+      
+      <!-- Insert encodingDesc and ProfileDesc -->
        <encodingDesc>
       <editorialDecl>
         <p>All unambiguous end-of-line hyphens have been removed and the trailing part of a word has been joined to the preceding line, except in the case of those words that break over a page.</p>
@@ -34,6 +39,7 @@
     </encodingDesc>
     <profileDesc xml:id="profileDesc-0001">
       <creation>
+        <!-- Copy date variable defined above -->
         <xsl:copy-of select="$date"/>
       </creation>
       <langUsage>
