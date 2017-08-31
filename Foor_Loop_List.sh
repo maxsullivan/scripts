@@ -1,0 +1,8 @@
+#!/bin/bash
+
+handles="1293 1294 1296 1297 2127 2134 2138 2139 2140 2141 2143 2144 2146 2147 2148 2149 2150 2363 2364 2365 2366 2367 2368 2369 2370 2372"
+
+for id in $handles ; 
+do 
+  echo "Extracting 123456789/$id from RestrictedArchive"; 
+done
