@@ -1,0 +1,22 @@
+for id in {1..5}; do echo $id; done
+1
+2
+3
+4
+5
+[sullivm1@RHEL-195WF2S Dspace_Extracts]$ for id in 1 2 3 4 5 ; do echo $id; done
+1
+2
+3
+4
+5
+[sullivm1@RHEL-195WF2S Dspace_Extracts]$ numbers="1 2 3 4 5"
+[sullivm1@RHEL-195WF2S Dspace_Extracts]$ for id in $numbers ; do echo $id; done
+1
+2
+3
+4
+5
+[sullivm1@RHEL-195WF2S Dspace_Extracts]$ for id in "$numbers" ; do echo $id; done
+1 2 3 4 5
+
