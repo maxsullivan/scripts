@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is a file to convert TEI to text
+# This is a script to convert TEI to text
 XMLFILES="/home/sullivm1/RTD/nzetc/convert_files/Salient*199*"
 OUTPUTFILE="/home/sullivm1/RTD/nzetc/SalientResearch"
 
