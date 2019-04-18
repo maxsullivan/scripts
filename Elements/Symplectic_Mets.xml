@@ -1,0 +1,46 @@
+<metadataentries>
+	<metadataentry>
+		<key>dc.type</key>
+		<value>Article</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.title</key>
+		<value>${ \mathcal P }{ \mathcal T }$-symmetric interpretation of unstable effective potentials</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.description.abstract</key>
+		<value>ï¿½ 2016 IOP Publishing Ltd. The conventional interpretation of the one-loop effective potentials of the Higgs field in the standard model and the gravitino condensate in dynamically broken supergravity is that these theories are unstable at large field values. A PT -symmetric reinterpretation of these models at a quantum-mechanical level eliminates these instabilities and suggests the conjecture that these instabilities may also be tamed at the quantum-field-theory level.</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.contributor.author</key>
+		<value>Bender CM</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.contributor.author</key>
+		<value>Hook DW</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.contributor.author</key>
+		<value>Mavromatos NE</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.contributor.author</key>
+		<value>Sarkar S</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.publisher</key>
+		<value>IOP PUBLISHING LTD</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.date.issued</key>
+		<value>2016-11-11</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.identifier.issn</key>
+		<value>1751-8113</value>
+	</metadataentry>
+	<metadataentry>
+		<key>dc.identifier.issn</key>
+		<value>1751-8121</value>
+	</metadataentry>
+</metadataentries>
