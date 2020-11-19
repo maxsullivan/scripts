@@ -1,0 +1,2 @@
+#one line command to zip sub-directories
+for f in exam-*/; do echo "zipping $f"; basename $f; echo $basename; base=`basename ${f}`; zip -j $base $f/*; done
