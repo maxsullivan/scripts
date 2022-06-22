@@ -20,3 +20,5 @@ for id in {1..5}; do echo $id; done
 [sullivm1@RHEL-195WF2S Dspace_Extracts]$ for id in "$numbers" ; do echo $id; done
 1 2 3 4 5
 
+
+for id in {6207..6240}; do echo "Extracting 10063/$id from RestrictedArchive"; ./bin/dspace packager -d -o dmd=oai_dc -t AIP -e [email@address] -i 123456789/$id /tmp/restricted-$id.zip; done
